@@ -1,15 +1,15 @@
 {
-  "id": "starter_party",
-  "name": "Starter Party",
+  "id": "cthangover_party",
+  "name": "Cthangover: Starter Party",
   "version": "1.0.0",
   "author": "ct",
-  "description": "Seeds the default starter party (Marao) and the slave_master skill after mod resources are ready, and restores it on NewGameStartedEvent. Split out of visual_novel_core so the base content mod stays pure content (scenes/dialogs/quests/data) with no C# gameplay logic.",
+  "description": "Seeds the default starter party (Marao) and the slave_master skill after mod resources are ready, and restores it on NewGameStartedEvent. Split out of cthangover_story so the base content mod stays pure content (scenes/dialogs/quests/data) with no C# gameplay logic.",
   "category": "engine, library",
   "sources": [
     "src/**/*.cs"
   ],
   "depends": [
-    "visual_novel_core>=1",
+    "cthangover_story>=1",
     "skills_base>=1"
   ],
   "ui": []
